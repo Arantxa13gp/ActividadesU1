@@ -18,9 +18,8 @@ public class MuestraTXT {
 
         for (Path q: Files.list(p).toList()){
         if (Files.isDirectory(q) && q.getFileName().toString().endsWith(".txt")) {
-            System.out.println(q + ": " + " ");
+            System.out.println(q + ": " + " Ultima modificacion: " + Files.getLastModifiedTime(q));
         }
-
         }
     }
 }
