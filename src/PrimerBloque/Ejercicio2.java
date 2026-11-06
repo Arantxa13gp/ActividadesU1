@@ -5,9 +5,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Scanner;
-import java.util.stream.Stream;
 
-public class MuestraTXT {
+public class Ejercicio2 {
     public static void main(String[] args) throws IOException {
 
         Scanner scan = new Scanner(System.in);

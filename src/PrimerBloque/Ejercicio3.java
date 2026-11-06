@@ -1,13 +1,11 @@
 package PrimerBloque;
 
-import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Scanner;
-import java.util.SortedMap;
 
-public class CompruebaDirectorio {
+public class Ejercicio3 {
     public static void main(String[] args){
 
         Scanner scan = new Scanner(System.in);
